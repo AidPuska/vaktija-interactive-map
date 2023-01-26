@@ -10,10 +10,6 @@
   #  from = "/*"
   #  to = "/index.html"
   #  status = 200
-  #[[redirects]]
-  #   from = "/vaktija"
-  #   to = "https://api.vaktija.ba/"
-  #   status = 200
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
@@ -23,3 +19,8 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[[redirects]]
+  from = "/vaktija"
+  to = "https://api.vaktija.ba/"
+  status = 200
