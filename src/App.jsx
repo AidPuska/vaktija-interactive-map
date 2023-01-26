@@ -32,7 +32,7 @@ function App() {
 
     const getVakat = (id) => {
       setLoading(false)
-      axios.get(`/vaktija/v1/${id}`)
+      axios.get(`https://api.vaktija.ba/vaktija/v1/${id}`)
         .then(res => {
           setVakat(res.data)
           setLoading(true)

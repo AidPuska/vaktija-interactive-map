@@ -20,8 +20,8 @@
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
 
-[[redirects]]
-  from = "/vaktija"
-  to = "https://api.vaktija.ba/"
-  status = 200
-  force = true
+#[[redirects]]
+ # from = "/vaktija"
+ # to = "https://api.vaktija.ba/"
+ # status = 200
+ # force = true
