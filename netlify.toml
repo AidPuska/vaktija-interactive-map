@@ -22,5 +22,5 @@
 
 [[redirects]]
   from = "/vaktija"
-  to = "https://api.vaktija.ba/"
+  to = "https://api.vaktija.ba/:splat"
   status = 200
