@@ -6,7 +6,6 @@ import { data } from './assets/data'
 //import menu from './assets/menu.png'
 import menu from './assets/vaktija.png'
 
-
 const ACCESS_TOKEN = 'pk.eyJ1IjoiYWlkcHVza2EiLCJhIjoiY2w5cjk3b204MGVhejN1bzd4bjV0bGRzeSJ9.b3U1oVckpLq5tLd9SzmGkw';
 mapboxgl.accessToken = ACCESS_TOKEN;
 
@@ -51,7 +50,7 @@ function App() {
       style: 'mapbox://styles/mapbox/light-v11',
       center: [lng, lat],
       zoom: zoom,
-    });
+    }, []);
 
     map.current.addControl(new mapboxgl.NavigationControl());
 
@@ -244,8 +243,6 @@ function App() {
     }
   }
 
-
-
   return (
     <div className="App" style={{ position: 'relative' }}>
       <div className='navbar'>
@@ -278,6 +275,11 @@ function App() {
               <p className='text'>Jacija: {vakat && vakat.vakat[5]}</p></> : <div style={{ color: 'white' }}>Loading...</div>}
           </>
         }
+      </div>
+
+      <div className='footer'>
+        <p>Vaktija Interactive Map 2023</p>
+        <p>Made with React, Mapbox, and Vaktija.ba Api</p>
       </div>
 
     </div>
