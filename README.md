@@ -1,5 +1,5 @@
 Vaktija Interactive Map
-
+![Screenshot_1](https://github.com/AidPuska/vaktija-interactive-map/assets/108176604/3538a6d7-6b18-4b35-8755-162bc230bb04)
 The Vaktija Interactive Map is a web-based application that allows users to view and interact with Islamic prayer times (Salah times) on an interactive map. This tool is particularly useful for Muslims who want to quickly find prayer times for different locations around the world.
 
 Features
