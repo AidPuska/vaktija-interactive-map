@@ -53,7 +53,7 @@ git push origin feature/your-feature-name
 Create a pull request detailing your changes.
 
 # Credits
-This project is developed and maintained by [Your Name]. The project is inspired by the need to provide an easy-to-use tool for Muslims to access accurate prayer times.
+This project is developed and maintained by Aid Puska. The project is inspired by the need to provide an easy-to-use tool for Muslims to access accurate prayer times.
 
 # License
 
