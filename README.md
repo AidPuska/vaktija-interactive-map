@@ -14,17 +14,17 @@ Vaktija Interactive Map
 # Getting Started
 To run the Vaktija Interactive Map on your local machine, follow these steps:
 
-1 Clone the Repository: Clone this repository to your local machine using the following command:
+1. Clone the Repository: Clone this repository to your local machine using the following command:
 
 bash
-1 Copy code
+1. Copy code
 git clone https://github.com/AidPuska/vaktija-interactive-map.git
 Navigate to the Directory: Move to the project directory:
 
 arduino
 Copy code
 cd vaktija-interactive-map
-1 Open index.html: Open the index.html file in your preferred web browser to launch the application.
+1. Open index.html: Open the index.html file in your preferred web browser to launch the application.
 
 # Usage
 1 **Choose Location**: Use the interactive map to navigate and find the desired location for which you want to view prayer times.
@@ -36,16 +36,16 @@ cd vaktija-interactive-map
 # Contributing
 Contributions are welcome and encouraged! If you'd like to contribute to this project, follow these steps:
 
-1 Fork the repository.
+1. Fork the repository.
 
-1 Create a new branch for your feature or bug fix:
+1. Create a new branch for your feature or bug fix:
 
 bash
 Copy code
 git checkout -b feature/your-feature-name
-1 Make your changes and commit them with clear, concise commit messages.
+1. Make your changes and commit them with clear, concise commit messages.
 
-1 Push your changes to your fork:
+1. Push your changes to your fork:
 
 bash
 Copy code
